@@ -210,6 +210,7 @@ main #clock {
 }
 main #greeting {
   font-size: min(48px, 5vw);
+  color: rgb(94, 86, 86);
 }
 main form {
   display: flex;
@@ -220,7 +221,7 @@ main form {
 main form #login-input {
   width: calc(100% - 3vw);
   margin-top: 10px;
-  color: inherit;
+  color: rgb(94, 86, 86);
   font-size: min(42px, 4vw);
   text-align: center;
   font-weight: bold;
@@ -242,6 +243,7 @@ main form:last-of-type input {
   width: 100%;
   font-size: min(38px, 3.5vw);
   font-weight: unset;
+  color: rgb(94, 86, 86);
 }
 main #todo-list {
   width: 100%;
@@ -263,6 +265,7 @@ main #todo-list li {
   word-break: break-all;
   transition: all 0.4s ease-in-out;
   cursor: pointer;
+  color: rgb(94, 86, 86);
 }
 main #todo-list li:hover {
   background-color: rgba(0, 0, 0, 0.3);
